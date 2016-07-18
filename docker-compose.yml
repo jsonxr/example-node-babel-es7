@@ -1,0 +1,6 @@
+version: '2'
+services:
+  example:
+    build: '.'
+    volumes:
+      - '.:/usr/src/app'

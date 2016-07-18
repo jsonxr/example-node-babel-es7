@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- inject:js -->
+  <!-- endinject -->
+
+
+</head>
+<body>
+  <h1>Index</h1>
+  <script>
+  // set our baseURL reference path
+  System.config({
+    baseURL: '/',
+    packages: { '/': { defaultExtension: 'js' }, }
+  });
+  System.import('app').then( (module) => {
+    const main = module.default;
+    main();
+  })
+  </script>
+</body>
+</html>

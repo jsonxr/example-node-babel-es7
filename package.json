@@ -10,7 +10,6 @@
   "author": "Jason Rowland",
   "license": "MIT",
   "devDependencies": {
-    "babel-plugin-syntax-async-functions": "^6.8.0",
     "babel-plugin-transform-async-to-generator": "^6.8.0",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.10.3",
     "babel-plugin-transform-es2015-modules-systemjs": "^6.9.0",

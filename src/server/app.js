@@ -31,9 +31,9 @@ app.set('view engine', 'handlebars');
 app.set('views', path.join(__dirname, 'views'));
 
 // uncomment after placing your favicon in /public
-app.use(favicon(path.join(__dirname, '../client', 'favicon.ico')));
+app.use(favicon(path.join(__dirname, '../browser', 'favicon.ico')));
 app.use(logger('dev'));
-app.use(express.static(path.join(__dirname, '../client')));
+app.use(express.static(path.join(__dirname, '../browser')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
